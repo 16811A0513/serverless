@@ -47,7 +47,7 @@ Now setup Hosting on AWS. Amplify will orchestrate to setup S3 with CloudFormati
 
 `amplify hosting add`
 
-Follow prompts to finish the activity. Choose 'DEV' option instead of 'PROD' option. Leave the rest to defaults.
+Follow prompts to finish the activity. Choose 'DEV' option instead of 'PROD' option. Leave the rest to defaults. This can be updated to PROD later on, once we have MVP!
 
 ## Publish the application
 Its now go live time! Let's publish it to see if everything is ready
