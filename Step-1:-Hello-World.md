@@ -39,18 +39,20 @@ Follow prompts to finish the rest of the steps to finish the process. Here are s
 * ? What javascript framework are you using angular
 * ? Source Directory Path:  frontend/src
 * ? Distribution Directory Path: frontend/dist/frontend
-* ? Build Command:  cd frontend && ng build 
-* ? Start Command: cd frontend && ng serve --o
+* ? Build Command: ng build 
+* ? Start Command: ng serve --o
 
 ## Setup Hosting
 Now setup Hosting on AWS. Amplify will orchestrate to setup S3 with CloudFormation.
 
 `amplify hosting add`
 
-Follow prompts to finish the activity. Choose 'PROD' option instead of 'DEV' option. Leave the rest to defaults.
+Follow prompts to finish the activity. Choose 'DEV' option instead of 'PROD' option. Leave the rest to defaults.
 
 ## Publish the application
 Its not go live time! Let's publish it
+
+`cd frontend`
 
 `amplify publish`
 
