@@ -11,7 +11,7 @@ Create a workspace folder called 'ws' (or any name of your choice) and go to tha
 While in the workspace folder, create new Angular application boiler plate using Angular CLI. In this example, will use frontend as the name of the Angular app.
 
 `
-ng generate frontend --routing
+ng new frontend --routing
 `
 
 This may take a minute or two, depending on the internet connection speed as it will create boiler plate template and install all dependencies.
