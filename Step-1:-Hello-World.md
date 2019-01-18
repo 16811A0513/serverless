@@ -52,6 +52,8 @@ Follow prompts to finish the activity. Choose 'DEV' option instead of 'PROD' opt
 ## Publish the application
 Its now go live time! Let's publish it to see if everything is ready
 
+> Make sure you are inside the frontend folder. Build script currently runs with respect to cwd and do not have any effect on cd inside build command sequences.
+
 `cd frontend`
 
 `amplify publish`
